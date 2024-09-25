@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgrey;
+    font-family: "raleway" ,sans-serif;
+}
+header{
+    text-align: center;
+    height: 120px;
+    width: 100%;
+}
+header h1{
+    font-weight: bold;
+    font-weight: 3000px;
+    padding-top: 30px;
+}
+header span{
+    color: white;
+    background-color: black;
+    padding: 3px;
+}
+.container{
+    margin: 50px;
+    display: flex;
+    height: 160vh;
+
+}
+.blogs{
+
+
+    height: 100%;
+    width: 69%;
+}
+.title , .entry{
+    margin: 10px;
+    background-color: white;
+    height: 48%;
+}
+.title img{
+width: 100%;
+}
+.title h2{
+    margin: 10px;
+}
+.title p{
+    margin: 20px 0px 0px 10px;
+    font-size: larger;
+}
+.title span{
+    color: gray;
+}
+.p{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.p a{
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    border: 1px solid gray;
+    font-weight: 250px;
+}
+.p p{
+    font-weight: 200px;
+}
+.p span{
+    color: white;
+    background-color: black;
+    padding: 3px 5px;
+}
+.title a:hover{
+    background-color: lightgray;
+}
+.entry img{
+    width: 100%;
+}
+.entry h2{
+        margin: 10px;
+}
+.entry p{
+        margin: 20px 0px 0px 10px;
+        font-size: larger;
+}
+.entry p span{
+        color: gray;
+}
+.entry a:hover{
+        background-color: lightgray;
+}
+aside{
+    width: 30%;
+
+    height: 100%;
+}
+.name ,.posts {
+    margin: 10px;
+    margin: 10px;
+    background-color: white;
+    height: 38%;
+}
+.name img{
+    width: 100%;
+}
+.name h2{
+    margin: 10px;
+}
+.name p{
+    margin: 20px 0px 0px 10px;
+    font-size: larger;
+}
+#p{
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(186, 181, 181);
+    height: 7vh;
+}
+.posts img{
+    height: 9vh;
+    margin: 10px;
+}
+.posts{
+    font-size: 17px;
+
+}
+.posts a{
+    height: 13vh;
+}
+
+.posts a:hover{
+    background-color: lightgray;
+}
+#l{
+    font-size: larger;
+    margin-top: 15px;
+}
+.tags{
+    margin: 10px;
+    margin: 10px;
+    background-color: white;
+    height: 20%;
+}
+#t{
+    color: white;
+    background-color: black;
+    padding: 3px;
+    margin: 10px;
+}
+.tags span{
+    color: black;
+    background-color: lightgray;
+    padding: 3px;
+    margin-right: 10px;
+}
+#s{
+    margin-left: 10px;
+}
+footer{
+    background-color: rgb(95, 95, 95);
+    height: 150px;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 15px;
+}
+footer a:hover{
+    background-color: gray;
+}
+footer p{
+    color: white;
+    margin: 10px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .container{
+        height: auto;
+        display: block;
+    }
+    aside ,.blogs{
+        width: 100%;
+    }
+}
+
+/* iPad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container{
+        height: auto;
+        display: block;
+    }
+    aside ,.blogs{
+        width: 100%;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1025px) {
+}
